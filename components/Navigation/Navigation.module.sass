@@ -1,0 +1,32 @@
+.nav
+	display: flex
+	align-items: center
+	&_link
+		text-decoration: none
+		color: #fff
+		margin-left: 45px
+		letter-spacing: .08em
+		font-size: 15px
+		cursor: pointer
+		@media(max-width: 1100px)
+			margin-left: 30px
+		&:hover
+			color: #ff0000
+			transition: .25s
+	&_tel
+		margin-left: 70px
+		@media(max-width: 1100px)
+			margin-left: 50px
+
+.active
+	color: #ff0000
+.whatsapp
+	height: 30px
+	margin-left: 15px
+	transition: 0.3s
+
+	&:hover
+		border-radius: 50%
+		padding: 3px
+		background-color: #2cb742
+		transition: 0.3s
